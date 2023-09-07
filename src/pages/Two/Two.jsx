@@ -60,7 +60,7 @@ export const Two = () => {
             </div>
             <div  className="container" >
                 <div className='div_1' >
-                    <div className="txt_central">
+                    <div  className="txt_central">
                         <div  ref={ref3} className={`titulo_p2_1 fade-in ${inView3 ? 'show' : ''}`}>Composições Líquidas</div>
                         <div className="txt_p2_1 d-flex">
                             <p  ref={ref} className={`explore-complex-text fade-in ${inView ? 'show' : ''}`}>
