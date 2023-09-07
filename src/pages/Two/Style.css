@@ -393,11 +393,7 @@ body {
   
   
   
-    .logos-container {
-      width: 25vh !important;
-      margin-right: 0 !important;
-    }
-  
+
     #background-video_2 {
       height: 130vh;
       bottom: 0;
@@ -453,6 +449,8 @@ body {
       top: 20px;
       left: 20px;
     }
+
+   
   
   
     
