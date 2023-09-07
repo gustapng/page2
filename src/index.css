@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Arial Black';
+  src: url('../../assets/Arial Black (1).ttf') format('truetype'),
+      
+  /* Adicione outros formatos de fonte, se necessário */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+
+
+/*effects*/
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+/*effects*/
