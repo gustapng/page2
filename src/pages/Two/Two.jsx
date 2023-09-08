@@ -6,6 +6,7 @@ import youtube from '../../assets/youtube.svg';
 import { useInView } from 'react-intersection-observer';
 
 
+
 import './Style.css'
 
 export const Two = () => {
@@ -58,12 +59,21 @@ export const Two = () => {
                     </div>
                 </div>
             </div>
-            <div  className="container" >
-                <div className='div_1' >
-                    <div  className="txt_central">
-                        <div  ref={ref3} className={`titulo_p2_1 fade-in ${inView3 ? 'show' : ''}`}>Composições Líquidas</div>
+
+
+
+
+
+
+
+
+
+            <div className="containerr" >
+                <div  className='div_1' >
+                    <div style={{border:'1px solid red'}}  className="content-one">
+                        <div ref={ref3} className={`text-white  fade-in ${inView3 ? 'show' : ''}`}> <h1 className='title-video'>Composição De Ingredientes</h1> </div>
                         <div className="txt_p2_1 d-flex">
-                            <p  ref={ref} className={`explore-complex-text fade-in ${inView ? 'show' : ''}`}>
+                            <p ref={ref5} className={`fade-in composition-para ${inView5 ? 'show' : ''}`}>
                                 Explorar a complexidade e expressividade dos elementos de cada
                                 ingrediente é o que nos motiva a criar e reproduzir coquetéis. Na
                                 leveza ou densidade, transparência ou opacidade, nosso objetivo é
@@ -76,57 +86,30 @@ export const Two = () => {
                         </div>
                     </div>
                 </div>
-                <div className='div_2'>
-                    <div className="video_3">
-                        <div className="video_2">
-                            <video id="background-video_2" autoPlay loop muted>
-                                <source src={back} type="video/mp4" />
-                            </video>
-                            <div className="txt_central2">
-                                <div ref={ref4} className={`titulo_p2_2 fade-in ${inView4 ? 'show' : ''}`}>Uma instalação de luz e um bar</div>
-                                <div ref={ref5} className={`txt_p2_2 fade-in ${inView5 ? 'show' : ''}`}>
-                                    O CUBQ começou a ser idealizado em 2012, a partir da ideia de
-                                    criar um bar itinerante montado dentro de uma estrutura inflável
-                                    criada pela diretora de arte Juliana Lima. Sua estréia foi em
-                                    junho de 2015 no Museu da Imagem e do Som, e desde então foram
-                                    muitos eventos, a maioria voltados a arte e design.
-                                </div>
-                               
-                            </div>
+            </div>
+
+            <div className="second-container">
+                <div ref={ref} className={`back-video  fade-in ${inView ? 'show' : ''}`}>
+                    <video className='video-background' autoPlay muted loop src={back}></video>
+                    <div className="container-text">
+                        <h1 className='title-video'>Uma instalação de luz e um bar</h1>
+                        <div className="txt_p2_1 d-flex">
+                            <p className={` composition-para`}>
+                                Explorar a complexidade e expressividade dos elementos de cada
+                                ingrediente é o que nos motiva a criar e reproduzir coquetéis. Na
+                                leveza ou densidade, transparência ou opacidade, nosso objetivo é
+                                criar possibilidades, descobrir e revelar sabores, aromas e
+                                texturas. Testando diferentes técnicas e ingredientes, nosso
+                                propósito é criar coquetéis que provoquem emoções e desafiem as
+                                expectativas. Nosso compromisso é proporcionar mais que um blend de
+                                sabores, e sim algo a ser compartilhado.
+                            </p>
                         </div>
                     </div>
-                    <footer className="footer">
-                        <div className="logos-container">
-                            <a href="http://www.instagram.com/barcubq" className="logo-link">
-                                <img src={insta} loading="lazy" alt="" className="logo" />
-                            </a>
-                            <a href="https://www.facebook.com/cubqbar" className="logo-link">
-                                <img src={face} loading="lazy" alt="" className="logo" />
-                            </a>
-                            <a href="https://wa.me/message/Y3XISQKQTGRXC1" className="logo-link">
-                                <img
-                                    src={whats}
-                                    loading="lazy"
-                                    alt=""
-                                    className="logo-whatsapp"
-                                />
-                            </a>
-                            <a
-                                href="https://www.youtube.com/channel/UCrnJq7dNKO2ll6YpLNd7sFg"
-                                className="logo-link"
-                            >
-                                <img
-                                    src={youtube}
-                                    loading="lazy"
-                                    alt=""
-                                    className="logo-youtube"
-                                />
-                            </a>
-                        </div>
-                    </footer>
                 </div>
+                <footer className="footer"><div className="logos-container"><a href="" className="logo-link"><img src={insta} loading="lazy" alt="" className="logo" /></a><a href="https://www.facebook.com/cubqbar" className="logo-link"><img src={face} loading="lazy" alt="" className="logo" /></a><a href="https://wa.me/message/Y3XISQKQTGRXC1" className="logo-link"><img src={whats} loading="lazy" alt="" className="logo-whatsapp" /></a><a href="https://www.youtube.com/channel/UCrnJq7dNKO2ll6YpLNd7sFg" className="logo-link"><img src={youtube} loading="lazy" alt="" className="logo-youtube" /></a></div></footer>
             </div>
         </>
     );
-
 };
+
