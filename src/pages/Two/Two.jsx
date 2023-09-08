@@ -70,7 +70,7 @@ export const Two = () => {
 
             <div className="containerr" >
                 <div  className='div_1' >
-                    <div style={{border:'1px solid red'}}  className="content-one">
+                    <div  className="content-one">
                         <div ref={ref3} className={`text-white  fade-in ${inView3 ? 'show' : ''}`}> <h1 className='title-video'>Composição De Ingredientes</h1> </div>
                         <div className="txt_p2_1 d-flex">
                             <p ref={ref5} className={`fade-in composition-para ${inView5 ? 'show' : ''}`}>
@@ -89,7 +89,7 @@ export const Two = () => {
             </div>
 
             <div className="second-container">
-                <div ref={ref} className={`back-video  fade-in ${inView ? 'show' : ''}`}>
+                <div ref={ref4} className={`back-video  fade-in ${inView4 ? 'show' : ''}`}>
                     <video className='video-background' autoPlay muted loop src={back}></video>
                     <div className="container-text">
                         <h1 className='title-video'>Uma instalação de luz e um bar</h1>
