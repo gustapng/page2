@@ -92,7 +92,7 @@ export const Two = () => {
                 <div ref={ref4} className={`back-video  fade-in ${inView4 ? 'show' : ''}`}>
                     <video className='video-background' autoPlay muted loop src={back}></video>
                     <div className="container-text">
-                        <h1 className='title-video'>Uma instalação de luz e um bar</h1>
+                        <h1 className='title-video text-white'>Uma instalação de luz e um bar</h1>
                         <div className="txt_p2_1 d-flex">
                             <p className={` composition-para`}>
                                 Explorar a complexidade e expressividade dos elementos de cada

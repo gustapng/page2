@@ -607,46 +607,121 @@ body::-webkit-scrollbar-thumb:hover {
 
 }
 
-@media (max-width: 321px) {
-  .number {
-    font-size: 7em;
+@media (max-width: 320px) {
+  
+
+  #menu {
+    color: #ffffff;
+    top: 10px;
+    left: 15px;
   }
 
   .numbers_container {
-    right: 20px;
+  
+    right: 10px;
+    top: -15px;
   }
 
-  #menu {
-    top: 20px;
-    left: 20px;
+
+  .container-text {
+
+    width: 100% !important;
+
+  }
+  
+  .number{
+    font-size: 85px !important;
   }
 
-  .titulo_p2_1 {
-    left: 7.5vw;
-    width: 69vw !important;
+  .numbers_container{
+    margin-top: 10px;
+    margin-right: 3px;
   }
 
-  .txt_p2_1 {
-    left: 7.5vw;
-    width: 69vw !important;
+  .div_1{
+    height: 100%;
+    padding: 10px 0;
+ 
   }
+  
+  .content-one {
+    margin-top: 100px !important;
+    width: 100% !important;
+
+    /* Centraliza o conteúdo horizontalmente */
+  }
+
+
+  .title-video {
+    padding: 0 60px;
+    text-align: center !important;
+    font-size: 20px !important;
+  
+  }
+  
+
+  .composition-para {
+    padding: 0 !important;
+    font-size: 14px !important;
+    margin-left: 5px !important;
+  
+  }
+  
+  
+
+
+  footer {
+
+    position: absolute !important;
+    display: flex !important;
+    justify-content: center !important;
+    width: 100%;
+    position: absolute;
+    align-items: end;
+    bottom: 0;
+    right: 0;
+  }
+
+  .logos-container {
+
+    display: flex;
+    margin-right: 0 !important;
+    width: 60%;
+  }
+
+  .logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+    margin-top: 0px;
+  }
+
 
   .txt_central {
-    top: 84%;
-    left: 45vw;
+    margin-top: -22px;
+    padding-bottom: 20px;
   }
 
-  .txt_central2 {
-    margin-top: 167%;
+  .logo-whatsapp {
+    max-width: 30px !important;
   }
 
-  .video_apres {
-    top: 83vw;
-    left: 0vw !important;
+  .logo-youtube {
+    max-width: 30px !important;
   }
 
+  .logo {
+    max-width: 25px !important;
+  }
 
 }
+
+
+
+
 
 /* /media queries modo paisagem*/
 
@@ -726,12 +801,6 @@ footer {
   height: 100vh;
   object-fit: cover;
   /* Redimensiona o vídeo para cobrir todo o espaço disponível */
-}
-
-.title-video {
-  color: white;
-  width: 100%;
-
 }
 
 
