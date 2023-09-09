@@ -372,6 +372,9 @@ a {
 
 
 
+  
+
+
   footer {
 
     position: absolute !important;
@@ -388,7 +391,7 @@ a {
 
     display: flex;
     margin-right: 0 !important;
-    width: 60%;
+    width: 40%;
   }
 
   .logo-link {
@@ -401,22 +404,29 @@ a {
     margin-top: 0px;
   }
 
-
   .txt_central {
     margin-top: -22px;
     padding-bottom: 20px;
   }
 
   .logo-whatsapp {
-    max-width: 30px !important;
+    max-width: 25px !important;
   }
 
   .logo-youtube {
-    max-width: 30px !important;
+    max-width: 25px !important;
   }
 
   .logo {
-    max-width: 25px !important;
+    max-width: 20px !important;
+  }
+
+  .logo-whatsapp {
+    max-width: 24px !important;
+  }
+
+  .logo-youtube {
+    max-width: 24px !important;
   }
 
 }
