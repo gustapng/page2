@@ -79,13 +79,15 @@ export const Two = () => {
                 </div>
             </div>
 
-            <div className="second-container">
+            <div style={{
+                position: 'fixed', bottom: '0', height: '100%'
+            }} className="second-container">
                 <div ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
-                    <video style={{ height: '100vh', width: '100%', objectFit: 'cover', margin: '0' }} autoPlay muted loop src={back}></video>
+                    <video style={{ height: '100vh', width: '100%', objectFit: 'cover', margin: '0'}} autoPlay muted loop src={back}></video>
                     <div className="container-text">
                         <h1 className='title-video text-white'>Uma instalação de luz e um bar</h1>
                         <div className="txt_p2_1 d-flex">
-                            <p className={` composition-para`}>
+                            <p className={`composition-para`}>
                                 Explorar a complexidade e expressividade dos elementos de cada
                                 ingrediente é o que nos motiva a criar e reproduzir coquetéis. Na
                                 leveza ou densidade, transparência ou opacidade, nosso objetivo é
