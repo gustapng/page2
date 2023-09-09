@@ -79,10 +79,10 @@ export const Two = () => {
                 </div>
             </div>
 
-            <div  className="second-container">
-                <div style={{height: '1000px'}}  ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
-                    <video style={{ height: '100vh', width: '100%', objectFit: 'cover', margin: '0'}} autoPlay muted loop src={back}></video>
-                    <div className="container-text">
+            <div className="second-container">
+                <div ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
+                    <video style={{ height: '100vh', width: '100%', objectFit: 'cover', margin: '0', position: 'relative'}} autoPlay muted loop src={back}></video>
+                    <div style={{ marginTop: '50vh'}} className="container-text" >
                         <h1 className='title-video text-white'>Uma instalação de luz e um bar</h1>
                         <div className="txt_p2_1 d-flex">
                             <p className={`composition-para`}>
