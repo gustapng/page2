@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0 !important;
 
-  background-color: black;
+  background-color: rgb(184, 18, 170);
   overflow-y: scroll;
   overflow-x: hidden;
   height: 200vh;
@@ -51,15 +51,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 /*effects*/
-.fade-in {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 2.3s ease, transform 2s ease;
-}
 
 
-.fade-in.show {
-  opacity: 1;
-  transform: translateY(0);
-}
+
+
 /*effects*/
